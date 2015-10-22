@@ -1,0 +1,321 @@
+h1{
+    
+    color : #3897FF;
+    font-size : 48px;
+    font-family: Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif;
+    
+}
+
+h2{
+    
+    color : #27E8A1;
+    font-size : 45px;
+    font-family: Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif;
+    
+}
+
+h3{
+    
+    color : #E8648A;
+    font-size : 42px;
+    font-family: Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif;
+    
+}
+
+p{
+    
+    color : #FF7F2B;
+    font-size : 16px;
+    font-family: Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif;
+    
+}
+
+    *{
+        
+        padding: 0;
+        margin: 0;
+        
+    }
+
+@media (max-width: 35em){
+    
+    .wrapper{
+        
+        max-width: 560px;
+        margin: 0 auto;
+        width:90%;
+        
+    }
+    
+    
+    .left{
+        
+        width: 100%;
+        
+    }
+    
+    .right{
+        
+        width: 100%;
+        
+    }
+    
+    
+    p{
+        
+        padding: 24px;
+    
+    }
+    
+    h1{
+        
+        padding: 24px;
+        
+    }
+    
+    h2{
+        
+        padding: 24px;
+        
+    }
+    
+    h3{
+        
+        padding: 24px;
+        
+    }
+    
+    nav ul{
+        
+        list-style: none;
+        
+    }
+    
+    nav li{
+        
+        width: 100%;
+        background: white;
+        text-align: center;
+        font-size: 24px;
+        
+    }
+    
+    body{
+        
+        background: grey;
+        
+    }
+    
+}
+
+@media (min-width:35em) and (max-width: 60em){
+    
+    .wrapper{
+        
+        max-width: 960px;
+        margin: 0 auto;
+        width:90%;
+        
+    }
+    
+    nav ul{
+        
+        list-style: none;
+        
+    }
+    
+    nav li{
+        
+        background: white;
+        text-align: center;
+        font-size: 30px;
+        float:left;
+        width: 25%;
+        
+    }
+    
+    body{
+        
+        background: #8CFF61;
+        
+    }
+    
+    .side {
+        
+                float: right;
+                width: 37%;
+       
+    }
+    
+    .content {
+        
+                float: left;
+                width: 63%;
+           
+    }
+    
+    main p{
+        
+        font-size: 18px;
+        
+    }
+    
+    .left{
+        
+        width: 100%;
+        
+    }
+    
+    .right{
+        
+        width: 100%;
+        
+    }
+    
+    .footer{
+        
+        clear: both;
+        text-align: center;
+        
+    }
+    
+    p{
+        
+        padding: 16px;
+    
+    }
+    
+    h1{
+        
+        padding: 16px;
+        text-align: center;
+        
+    }
+    
+    h2{
+        
+        padding: 16px;
+        
+    }
+    
+    h3{
+        
+        padding: 16px;
+        
+    }
+      
+}
+
+@media (min-width:60em){
+    
+    body{
+        
+        background: grey;
+        
+    }
+    
+    .mainnav{
+        
+        float: left;
+        width: 25%;
+        
+    }
+    
+    .side {
+        
+                float: right;
+                width: 25%;
+       
+    }
+    
+    .content {
+        
+                float: left;
+                width: 50%;
+           
+    }
+    
+    main{
+        
+        -webkit-column-count: 2;
+        -webkit-column-gap: 2rem;
+    
+        column-count: 2;
+        column-gap: 2rem;
+        
+    }
+    
+    .footer{
+        
+        clear: both;
+        text-align: center;
+        
+    }
+    
+    p{
+        
+        padding: 16px;
+    
+    }
+    
+    h1{
+        
+        padding: 16px;
+        text-align: center;
+        
+    }
+    
+    h2{
+        
+        padding: 16px;
+        
+    }
+    
+    h3{
+        
+        padding: 16px;
+        
+    }
+    
+    .left{
+        
+        width: 100%;
+        
+    }
+    
+    .right{
+        
+        width: 100%;
+        
+    }
+   
+    nav ul{
+        
+        list-style: none;
+        
+    }
+    
+    nav li{
+        
+        background: white;
+        text-align: center;
+        font-size: 30px;
+        width: 100%;
+        
+    }
+    
+    .wrapper{
+        
+        max-width: 1600px;
+        margin: 0 auto;
+        width:90%;
+        
+    }
+    
+    main p{
+        
+        font-size: 20px;
+        
+    }
+    
+}
